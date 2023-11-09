@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    background-color: lightcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkblue;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Agbalumo", serif;
+}
+
+h1{
+    font-size: clamp(2rem, 10vw, 6rem);
+}
+
+li::before {
+    content:"";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-image: url("../star.webp  ");
+    background-size: 10px 10px;
+}
+
+ul {list-style: none;}
+
+header,
+footer, 
+section {
+    padding: 20px;
+}
+
+table {
+    background-color: darkblue;
+    color: lightgray;
+}
+
+.formation,
+.competence, 
+.experience,
+.loisir {
+    border-bottom:  1px solid darkblue
+}
+
+.mail::before {
+    content: ' ';
+    display: inline-block;
+    background: url("email.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
