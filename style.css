@@ -44,15 +44,3 @@ table {
 .loisir {
     border-bottom:  1px solid darkblue
 }
-
-.mail::before {
-    content: ' ';
-    display: inline-block;
-    background: url("email.png") no-repeat;
-    background-size: contain;
-    height: 20px;
-    width: 20px;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
