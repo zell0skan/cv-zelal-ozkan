@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    background-color: lightcyan;
+    background-color: lightgrey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkblue;
 }
@@ -36,11 +36,40 @@ section {
 table {
     background-color: darkblue;
     color: lightgray;
+    max-width: 300px;
+    margin: auto;
+}
+.contact{
+    text-align: center;
 }
 
+.contact,
 .formation,
 .competence, 
 .experience,
 .loisir {
-    border-bottom:  1px solid darkblue
+    border-bottom:  3px solid darkblue
+}
+
+
+
+main {
+    max-width: 900px;
+    margin:auto;
+}
+
+.colonne, header {
+    display: flex;
+    gap: 1rem;
+}
+.gauche, .droite {
+    width: 50%;
+}
+
+.contact a:link, .contact a:visited{
+    color:white
+}
+
+.competence, .loisir {
+    text-align: center;
 }
