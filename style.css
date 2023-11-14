@@ -59,7 +59,7 @@ table {
 .competence, 
 .experience,
 .loisir {
-    border-bottom:  3px solid darkblue
+    border-bottom:  1px solid darkblue
 }
 
 
@@ -88,8 +88,4 @@ main {
 
 .competence, .loisir {
     text-align: center;
-}
-
-.starling {
-    justify-content: flex-end ;
 }
